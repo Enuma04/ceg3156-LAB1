@@ -1,0 +1,7 @@
+library ieee;
+use ieee.std_logic_1164.all;
+
+entity adderDataPath is
+	port(
+		Sign_A, Sign_B: IN_STD_LOGIC;
+	)
