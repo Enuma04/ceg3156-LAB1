@@ -90,7 +90,7 @@ Z <= not(sum_int(0) or sum_int(1) or sum_int(2) or sum_int(3) or sum_int(4) or s
 --Sum
 Sum <= sum_int;
 
---Subtraction (B 2's Comp.)
+--Subtraction
 B_add_or_sub(0) <= (B(0) AND (NOT Sub)) OR ((NOT B(0)) AND Sub);
 B_add_or_sub(1) <= (B(1) AND (NOT Sub)) OR ((NOT B(1)) AND Sub);
 B_add_or_sub(2) <= (B(2) AND (NOT Sub)) OR ((NOT B(2)) AND Sub);
